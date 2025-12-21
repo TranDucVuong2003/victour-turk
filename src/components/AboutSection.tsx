@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className="text-center mb-14 opacity-0 animate-fade-in-up">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="gradient-text">Turkmenistan</span> - Điểm Đến Huyền
-            Thoại
+            Thoại 1
           </h2>
           <div className="w-20 h-1 bg-amber-500 mx-auto mb-6"></div>
         </div>
