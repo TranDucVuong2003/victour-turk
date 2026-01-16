@@ -28,21 +28,40 @@
 5. Xác nhận yêu cầu (nếu có popup)
 
 ## Bước 5: Submit Sitemap (Quan trọng!)
-1. Trong menu bên trái, chọn: **"Sơ đồ trang web"** (Sitemaps)
 
-2. Trong phần "Thêm sơ đồ trang web mới", nhập:
-   ```
-   sitemap.xml
-   ```
+⚠️ **QUAN TRỌNG: Phải deploy website trước khi submit sitemap!**
 
-3. Click nút **"Gửi"** (Submit)
+1. **Đảm bảo đã deploy website** với file `sitemap.xml` mới
 
-4. Sitemap sẽ được Google thu thập và xử lý
+2. **Kiểm tra sitemap có hoạt động:**
+   - Mở trình duyệt, truy cập: `https://turkmenistan-victour.com/sitemap.xml`
+   - Nếu thấy nội dung XML (không phải lỗi 404), thì sitemap đã sẵn sàng
+
+3. **Trong Google Search Console:**
+   - Menu bên trái → **"Sơ đồ trang web"** (Sitemaps)
+
+4. **Submit sitemap:**
+   - Trong phần "Thêm sơ đồ trang web mới", nhập:
+     ```
+     sitemap.xml
+     ```
+     HOẶC thử với full URL:
+     ```
+     https://turkmenistan-victour.com/sitemap.xml
+     ```
+
+5. Click nút **"Gửi"** (Submit)
+
+6. Đợi vài phút, refresh trang để xem status:
+   - ✅ "Thành công" (Success) = OK
+   - ❌ "Không thể tìm nạp" = cần kiểm tra lại URL hoặc deploy
 
 ## Lưu ý:
 - ⏰ Google có thể mất vài giờ đến vài ngày để cập nhật
 - ✅ Bạn có thể request indexing nhiều lần nhưng không nên spam (1-2 lần/tuần là đủ)
 - 🔄 Sau khi deploy code mới, nên request indexing lại
+- 📦 **Phải deploy website trước** - Google không thể truy cập sitemap nếu file chưa được deploy
+- 🔍 Test sitemap trước: Mở `https://turkmenistan-victour.com/sitemap.xml` trong trình duyệt
 
 ## Kiểm tra kết quả:
 1. Vào lại URL Inspection sau vài giờ
